@@ -10691,14 +10691,20 @@
   }
   .portfolio-block.cv .group .organization {
     font-size: 0.85em;
-    background-color: #0ea0ff;
+    background-color: #002B5B;
     display: inline-block;
     color: #fff;
     padding: 2px 8px;
     border-radius: 2em;
   }
   .portfolio-block.cv .education.group .organization {
-    background-color: #20c997;
+    background-color: #1A5F7A;
+  }
+  .portfolio-block.cv .volunteer-experience.group .organization {
+    background-color: #159895;
+  }
+  .portfolio-block.cv .hobbies.group .organization {
+    background-color: #57C5B6;
   }
   .portfolio-block.cv .group .item {
     padding-bottom: 10px;
@@ -10714,9 +10720,13 @@
     margin-bottom: 5px;
   }
   .portfolio-block.cv .work-experience h3,
-  .portfolio-block.cv .work-experience .h3,
+  .portfolio-block.cv .work-experience .h3,  
   .portfolio-block.cv .education h3,
-  .portfolio-block.cv .education .h3 {
+  .portfolio-block.cv .education .h3,
+  .portfolio.block.cv .volunteer-experience h3,
+  .portfolio-block.cv .volunteer-experience .h3,
+  .portfolio-block.cv .hobbies h3,
+  .portfolio-block.cv .hobbies .h3 {
     font-weight: bold;
   }
   .portfolio-info-card {
