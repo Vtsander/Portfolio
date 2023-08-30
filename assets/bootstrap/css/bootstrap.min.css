@@ -704,6 +704,7 @@
   }
   .col-9 {
     flex: 0 0 auto;
+    word-wrap: break-word;
     width: 75%;
   }
   .col-10 {
